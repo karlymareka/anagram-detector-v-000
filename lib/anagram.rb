@@ -14,7 +14,8 @@ class Anagram
       if possible_match.sort == word.sort
         matches << possible_match
       end 
-    end 
+    end
+    matches 
   end 
   
 end 
