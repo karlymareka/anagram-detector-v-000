@@ -13,6 +13,7 @@ class Anagram
       possible_match.split("")
       if possible_match.sort == word.sort
         matches << possible_match
+      end 
     end 
   end 
   
