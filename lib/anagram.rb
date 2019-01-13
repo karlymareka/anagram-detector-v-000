@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match(array)
-    
+    rows = array.split 
   end 
   
 end 
